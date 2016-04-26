@@ -14,7 +14,9 @@ alias shrugcc='echo "¯\\\\\_(ツ)_/¯" | pbcopy'
 
 alias irb="pry"
 alias pry="pry --simple-prompt"
+alias bundle="CFLAGS=\"-O2 -fno-tree-dce -fno-optimize-sibling-calls\" bundle"
 alias bx="bundle exec"
+alias gem="CFLAGS=\"-O2 -fno-tree-dce -fno-optimize-sibling-calls\" gem"
 alias cap="bx cap"
 alias rake="bx rake"
 alias jekyll="bx jekyll"
