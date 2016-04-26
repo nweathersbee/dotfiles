@@ -7,7 +7,7 @@ These are my personal dotfiles.  They setup an environment the way I like it.
 Run these commands
 
 ```sh
-git clone git://github.com/kellyredding/dotfiles ~/.dotfiles
+git clone git://github.com/nweathersbee/dotfiles ~/.dotfiles
 cd ~/.dotfiles
 gem install bundler
 bundle

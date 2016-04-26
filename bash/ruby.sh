@@ -6,20 +6,20 @@ fi
 
 # rb status prompt stuff
 
-if [ -f ~/.bash/scripts/rb-prompt-kellyredding.sh ]; then
-  . ~/.bash/scripts/rb-prompt-kellyredding.sh
+if [ -f ~/.bash/scripts/rb-prompt-nweathersbee.sh ]; then
+  . ~/.bash/scripts/rb-prompt-nweathersbee.sh
 fi
 
 # gem completion
 
-if [ -f ~/.bash/scripts/gem-completion-kellyredding.sh ]; then
-  . ~/.bash/scripts/gem-completion-kellyredding.sh
+if [ -f ~/.bash/scripts/gem-completion-nweathersbee.sh ]; then
+  . ~/.bash/scripts/gem-completion-nweathersbee.sh
 fi
 
 # grb completion
 
-if [ -f ~/.bash/scripts/grb-completion-kellyredding.sh ]; then
-  . ~/.bash/scripts/grb-completion-kellyredding.sh
+if [ -f ~/.bash/scripts/grb-completion-nweathersbee.sh ]; then
+  . ~/.bash/scripts/grb-completion-nweathersbee.sh
 fi
 
 # assert individually

@@ -1,6 +1,6 @@
 # bash/zsh git prompt support
 #
-# Copyright (C) 2013 Kelly Redding <kelly@kellyredding.com>
+# Copyright (C) 2016 Neil Weathersbee <neil.weathersbee.work@gmail.com>
 # Distributed under the MIT LICENSE.
 #
 # This script allows you to see the active ruby version in your prompt.
