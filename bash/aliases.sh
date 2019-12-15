@@ -28,6 +28,7 @@ alias iassert="time __assert_individually"
 alias sanford="bx sanford"
 alias ardb="bx ardb"
 alias dassets="bx dassets"
+alias dk="bx dk"
 
 alias ghost="sudo ghost"
 alias ghost-ssh="ghost-ssh"

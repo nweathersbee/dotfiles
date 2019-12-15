@@ -1,3 +1,4 @@
+
 # print ActiveRecord SQL to STDOUT
 if ENV.include?('RAILS_ENV') && !Object.const_defined?('RAILS_DEFAULT_LOGGER')
   # Rails 2
@@ -17,3 +18,6 @@ class Object
     (methods - Object.instance_methods).sort
   end
 end
+
+# add the current dir to the load path
+$LOAD_PATH.unshift(File.expand_path(Dir.pwd))

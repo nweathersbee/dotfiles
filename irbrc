@@ -35,3 +35,5 @@ class Object
   end
 end
 
+# add the current dir to the load path
+$LOAD_PATH.unshift(File.expand_path(Dir.pwd))
