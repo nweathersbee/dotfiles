@@ -19,7 +19,7 @@ if [ -f ~/.bash/colors.sh ]; then
                                               # => then upstreamstate (cyan)
                                               # => then dirtystate    (yellow)
 
-    PS1=$PS1'$(__rb_ps1  " \[$txtcyn\]%s\[$txtrst\]")'
+#    PS1=$PS1'$(__rb_ps1  " \[$txtcyn\]%s\[$txtrst\]")'
                                               # => space, active ruby version (cyan)
 
     PS1=$PS1" \[$bldred\]\@\[$txtrst\]"       # => space, current time (bold red)
