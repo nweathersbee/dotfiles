@@ -1,10 +1,9 @@
---- 
+---
 benchmark: false
 gem: --no-ri --no-rdoc
 :verbose: true
 :bulk_threshold: 1000
-:sources: 
+:sources:
 - https://rubygems.org
-- http://gems.reelfx.com/
 :update_sources: true
 :backtrace: false
